@@ -61,7 +61,7 @@ export default function AboutUs() {
       <h2>ABOUT US</h2>
       <div className={styles.container}>
         {data.points.map((point) => (
-          <Point {...point} />
+          <Point key={point.title} {...point} />
         ))}
       </div>
       <BottomImg />

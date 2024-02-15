@@ -10,6 +10,7 @@ export default function Partnerships() {
       <div className={styles.container}>
         {files.map((file) => (
           <Image
+            key={file}
             src={`/partnerships/${file}`}
             alt={file}
             width={100}

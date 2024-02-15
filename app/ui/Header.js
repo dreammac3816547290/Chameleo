@@ -37,7 +37,7 @@ function Top() {
 function Bottom() {
   return (
     <div className={styles.footer}>
-      <img src="/header/BG-3.svg" className={styles.bg_3} />
+      <img src="/header/BG-3.svg" alt="background" className={styles.bg_3} />
       <div className={styles.text}>
         <p className={styles.footerText}>{data.footer}</p>
         <a href="#ourClasses" className={styles.contact}>

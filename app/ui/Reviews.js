@@ -20,7 +20,7 @@ export default function Reviews() {
       <h2>REVIEWS</h2>
       <div className={styles.container}>
         {data.reviews.map((review) => (
-          <Review {...review} />
+          <Review key={name} {...review} />
         ))}
       </div>
     </div>

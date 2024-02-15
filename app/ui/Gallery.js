@@ -12,6 +12,7 @@ export default function Gallery() {
           (file) =>
             !file.startsWith("img") && (
               <Image
+                key={file}
                 src={`/gallery/${file}`}
                 alt="gallery"
                 width={300}
