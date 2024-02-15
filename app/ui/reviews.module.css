@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Trap;
+  src: url(fonts/Trap-Regular.otf);
+}
+
+@font-face {
+  font-family: Trap-Bold;
+  src: url(fonts/Trap-Bold.otf);
+}
+
+@font-face {
+  font-family: DrSugiyama;
+  src: url(fonts/DrSugiyama-Regular.ttf);
+}
+
+.main {
+  background-image: url(../../public/reviews/BG.svg);
+  background-size: cover;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.bigText {
+  margin: -140px 0 -270px;
+  text-align: center;
+  font: 360px DrSugiyama;
+  color: #18a0ca;
+  user-select: none;
+}
+
+.container {
+  padding: 20px max(30px, 8%);
+  display: flex;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.box {
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 25px;
+  width: 300px;
+  min-width: 320px;
+  background: #a6e6fe;
+  padding: 40px 30px;
+  font: 20px Trap;
+}
+
+.header {
+  height: 100px;
+  overflow: auto;
+}
+
+.bold {
+  font: 20px Trap-Bold;
+}
+
+.content {
+  margin-top: 20px;
+}

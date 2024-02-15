@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Trap;
+  src: url(fonts/Trap-Regular.otf);
+}
+
+@font-face {
+  font-family: Trap-Bold;
+  src: url(fonts/Trap-Bold.otf);
+}
+
+@font-face {
+  font-family: Baloo2;
+  src: url(fonts/Baloo2-Bold.ttf);
+}
+
+.main {
+  background: #e2ffff;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main {
+    padding-top: 100px;
+  }
+}
+
+.header {
+  margin: auto;
+  max-width: calc(450px + 25%); /* pixel = (1 - fraction) * 600 */
+  padding: 20px 30px;
+  text-align: center;
+  font: 25px Trap;
+}
+
+.container {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  margin: 15px;
+  width: 330px;
+}
+
+.titleContainer {
+  border-radius: 15px;
+  padding: 15px;
+  position: relative;
+}
+
+.popular::after {
+  content: url(../../public/ourClasses/popular.svg);
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.title {
+  padding-top: 10px;
+  text-align: center;
+  font: 30px Baloo2;
+  color: white;
+}
+
+.description {
+  font: 22px Trap;
+  line-height: 1.3;
+}
+
+.footer {
+  padding: 0 30px;
+  font: 32px Trap-Bold;
+  text-align: center;
+}

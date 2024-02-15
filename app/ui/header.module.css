@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Trap;
+  src: url(fonts/Trap-Regular.otf);
+}
+
+@font-face {
+  font-family: Trap-Bold;
+  src: url(fonts/Trap-Bold.otf);
+}
+
+.main {
+  background: url(../../public/header/BG-2.svg) no-repeat bottom -200px left 70%,
+    url(../../public/header/BG-1.svg) no-repeat 0 100px;
+  background-size: 2000px, 100% 100%;
+  position: relative;
+}
+
+@media (max-width: 916px) {
+  .main {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 917px) {
+  .main {
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main {
+    padding-bottom: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    padding-bottom: 100px;
+  }
+}
+
+.container {
+  padding: 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  margin: 15px;
+}
+
+.textContainer {
+  margin: 15px;
+  max-width: 1000px;
+  flex: 1 1 500px;
+  font: 25px Trap;
+}
+
+.slogan {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: inline-block;
+  transform: scale(0.8) translateY(20px);
+}
+
+.footer {
+  margin: 0 calc(30% - 200px);
+  padding: 60px calc(3% + 30px) 60px calc(8% + 50px);
+  position: relative;
+}
+
+.bg_3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.footer::before {
+  content: url(../../public/header/BG-4.svg);
+  position: absolute;
+  bottom: -30px;
+  left: 15%;
+  z-index: 0;
+}
+
+.footer::after {
+  content: url(../../public/header/BG-5.svg);
+  position: absolute;
+  bottom: -30px;
+  right: 15%;
+  z-index: 0;
+}
+
+.text {
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.footerText {
+  margin-bottom: 10px;
+  font: 25px Trap-Bold;
+  line-height: 1.5;
+}
+
+.contact {
+  font: 25px Trap;
+  color: inherit;
+}
+
+.img {
+  position: absolute;
+}
+
+.left_1 {
+  bottom: -180px;
+  left: calc(5% - 100px);
+  z-index: 1;
+}
+
+.left_2 {
+  bottom: -120px;
+  left: calc(10% - 100px);
+  z-index: 0;
+}
+
+.right_1 {
+  bottom: -200px;
+  right: calc(12% - 200px);
+  z-index: 2;
+}
+
+.right_2 {
+  bottom: -150px;
+  right: calc(16% - 120px);
+  z-index: 1;
+}
+
+.right_3 {
+  bottom: -120px;
+  right: calc(12% - 200px);
+  z-index: 0;
+}

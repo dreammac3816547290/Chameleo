@@ -1,0 +1,34 @@
+.main {
+  background: #fec43d;
+  padding: 80px 0;
+  position: relative;
+}
+
+.container {
+  padding: 30px max(30px, 10%);
+  display: flex;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.img {
+  margin: 10px;
+  z-index: 1;
+}
+
+.img_1 {
+  position: absolute;
+  top: 60px;
+  left: calc(-250px + 8%);
+  z-index: 0;
+}
+
+.img_2 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(-100px + 10%);
+  z-index: 2;
+}

@@ -1,0 +1,17 @@
+.main {
+  background: #71d3f2;
+  padding: 80px 0;
+}
+
+.container {
+  margin: auto;
+  max-width: calc(300px + 50%); /* pixel = (1 - fraction) * 600 */
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img {
+  margin: 10px;
+}
