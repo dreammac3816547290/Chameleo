@@ -32,7 +32,7 @@ export default function OurClasses() {
       <div className={styles.header}>{data.header}</div>
       <div className={styles.container}>
         {data.points.map((point) => (
-          <Point key={title} {...point} />
+          <Point key={point.title} {...point} />
         ))}
       </div>
       <div className={styles.footer}>{data.footer}</div>
