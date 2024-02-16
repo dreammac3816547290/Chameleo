@@ -51,6 +51,7 @@
 .img {
   margin: 5px;
   vertical-align: middle;
+  user-select: none;
 }
 
 .title {
@@ -69,6 +70,7 @@
 
 .bottomImg {
   position: absolute;
+  user-select: none;
 }
 
 .left_1 {

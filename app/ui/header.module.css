@@ -48,6 +48,7 @@
 
 .logo {
   margin: 15px;
+  user-select: none;
 }
 
 .textContainer {
@@ -62,6 +63,7 @@
   width: 100%;
   max-width: 600px;
   height: auto;
+  user-select: none;
 }
 
 .content {
@@ -86,6 +88,7 @@
   top: 0;
   left: 0;
   z-index: 1;
+  user-select: none;
 }
 
 .footer::before {
@@ -123,6 +126,7 @@
 
 .img {
   position: absolute;
+  user-select: none;
 }
 
 .left_1 {
