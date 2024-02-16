@@ -1,3 +1,8 @@
+const meta = {
+  title: "Chameleo Kidz Academy",
+  description: "Singapore dance school",
+};
+
 const headerData = {
   content:
     "We are a dance school in Singapore with a noble aim to provide fun and progressive activities for your child, and to nurture talents.",
@@ -112,4 +117,4 @@ const socials = {
   instagram: "https://www.instagram.com/chameleokidz/?igsh=bmllY2Z5c2lsd3E5",
 };
 
-export { headerData, aboutUsData, ourClassesData, reviewsData, socials };
+export { meta, headerData, aboutUsData, ourClassesData, reviewsData, socials };

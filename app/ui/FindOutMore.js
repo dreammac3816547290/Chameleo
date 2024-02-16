@@ -37,7 +37,7 @@ function Top() {
 export function Socials() {
   return (
     <>
-      <a href={socials.facebook}>
+      <a href={socials.facebook} target="_blank">
         <Image
           src="/findOutMore/facebook.svg"
           alt="facebook"
@@ -46,7 +46,7 @@ export function Socials() {
           className={styles.img}
         />
       </a>
-      <a href={socials.instagram}>
+      <a href={socials.instagram} target="_blank">
         <Image
           src="/findOutMore/instagram.svg"
           alt="instagram"
