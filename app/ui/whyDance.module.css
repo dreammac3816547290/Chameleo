@@ -2,6 +2,7 @@
   background: #09abe8;
   padding: 0.8rem 0;
   position: relative;
+  overflow-x: clip;
   color: white;
   z-index: 0;
 }

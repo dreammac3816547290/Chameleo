@@ -13,6 +13,7 @@
     url(../../public/header/BG-1.svg) no-repeat 0 1rem;
   background-size: 20rem, 100% 100%;
   position: relative;
+  overflow-x: clip;
 }
 
 @media (max-width: 916px) {
@@ -44,6 +45,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .logo {
