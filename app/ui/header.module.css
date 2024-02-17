@@ -92,15 +92,23 @@
 }
 
 .footer::before {
-  content: url(../../public/header/BG-4.svg);
+  content: "";
+  width: 0.82rem;
+  height: 1.88rem;
+  background-image: url(../../public/header/BG-4.svg);
+  background-size: cover;
   position: absolute;
-  bottom: -0.3rem;
+  bottom: -0.25rem;
   left: 15%;
   z-index: 0;
 }
 
 .footer::after {
-  content: url(../../public/header/BG-5.svg);
+  content: "";
+  width: 0.82rem;
+  height: 1.88rem;
+  background-image: url(../../public/header/BG-5.svg);
+  background-size: cover;
   position: absolute;
   bottom: -0.3rem;
   right: 15%;
@@ -110,6 +118,7 @@
 .text {
   position: relative;
   color: white;
+  line-height: 0; /* prevent excessive space beetwen lines in div containing image, text, link */
   z-index: 2;
 }
 

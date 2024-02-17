@@ -16,6 +16,7 @@
 
 .topItem {
   margin: 0.15rem 0;
+  line-height: 0; /* prevent excessive space beetwen lines in div containing image, text, link */
 }
 
 .topItem a {
@@ -25,6 +26,7 @@
 
 .img {
   margin-right: 0.2rem;
+  vertical-align: top;
   user-select: none;
 }
 

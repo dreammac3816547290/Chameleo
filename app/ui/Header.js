@@ -25,7 +25,7 @@ function Top() {
         />
         <div className={styles.content}>{data.content}</div>
         <div>
-          Find Us On:
+          <span style={{ verticalAlign: "bottom" }}>Find Us On:</span>
           <div className={styles.socials}>
             <Socials />
           </div>

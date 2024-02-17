@@ -57,7 +57,11 @@
 }
 
 .popular::after {
-  content: url(../../public/ourClasses/popular.svg);
+  content: "";
+  width: 0.9rem;
+  height: 0.9rem;
+  background-image: url(../../public/ourClasses/popular.svg);
+  background-size: cover;
   position: absolute;
   top: -0.2rem;
   right: -0.2rem;
