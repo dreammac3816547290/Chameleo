@@ -78,17 +78,16 @@
 }
 
 .footer {
-  margin: 0 calc(30% - 2rem);
-  padding: 0.6rem calc(3% + 0.3rem) 0.6rem calc(8% + 0.5rem);
+  padding: 0.6rem calc(30% - 1.3rem) 0.6rem calc(35% - 1.2rem);
   position: relative;
 }
 
 .bg_3 {
-  width: 100%;
+  width: calc(50% + 3rem);
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: calc(25% - 1.5rem);
   z-index: 1;
   user-select: none;
 }
@@ -101,7 +100,7 @@
   background-size: cover;
   position: absolute;
   bottom: -0.25rem;
-  left: 15%;
+  left: calc(35% - 1.2rem);
   z-index: 0;
 }
 
@@ -113,7 +112,7 @@
   background-size: cover;
   position: absolute;
   bottom: -0.3rem;
-  right: 15%;
+  right: calc(35% - 1.2rem);
   z-index: 0;
 }
 
