@@ -16,20 +16,20 @@
 .main {
   background-image: url(../../public/reviews/BG.svg);
   background-size: cover;
-  padding: 60px 0;
+  padding: 0.6rem 0;
   overflow: hidden;
 }
 
 .bigText {
-  margin: -140px 0 -270px;
+  margin: -1.4rem 0 -2.7rem;
   text-align: center;
-  font: 360px DrSugiyama;
+  font: 3.6rem DrSugiyama;
   color: #18a0ca;
   user-select: none;
 }
 
 .container {
-  padding: 20px max(30px, 8%);
+  padding: 0.2rem max(0.3rem, 8%);
   display: flex;
   overflow: auto;
 }
@@ -39,25 +39,25 @@
 }
 
 .box {
-  margin: 10px;
+  margin: 0.1rem;
   border: 2px solid;
-  border-radius: 25px;
-  width: 300px;
-  min-width: 320px;
+  border-radius: 0.25rem;
+  width: 3rem;
+  min-width: 3.2rem;
   background: #a6e6fe;
-  padding: 40px 30px;
-  font: 20px Trap;
+  padding: 0.4rem 0.3rem;
+  font: 0.2rem Trap;
 }
 
 .header {
-  height: 100px;
+  height: 1rem;
   overflow: auto;
 }
 
 .bold {
-  font: 20px Trap-Bold;
+  font: 0.2rem Trap-Bold;
 }
 
 .content {
-  margin-top: 20px;
+  margin-top: 0.2rem;
 }

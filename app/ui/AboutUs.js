@@ -9,9 +9,10 @@ function Point({ title, description, src }) {
         <Image
           src={src}
           alt={title}
-          width={50}
-          height={50}
+          width={0}
+          height={0}
           className={styles.img}
+          style={{ width: ".50rem", height: ".50rem" }}
         />
         <h3 className={styles.title}>{title}</h3>
       </div>
@@ -26,30 +27,34 @@ function BottomImg() {
       <Image
         src="/aboutUs/left-1.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.bottomImg} ${styles.left_1}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
       <Image
         src="/aboutUs/left-2.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.bottomImg} ${styles.left_2}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
       <Image
         src="/aboutUs/right-1.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.bottomImg} ${styles.right_1}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
       <Image
         src="/aboutUs/right-2.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.bottomImg} ${styles.right_2}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
     </>
   );

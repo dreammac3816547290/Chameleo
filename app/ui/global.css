@@ -8,6 +8,18 @@
   src: url(fonts/Trap-Bold.otf);
 }
 
+@media (max-width: 500px) {
+  :root {
+    font-size: 20vw; /* vw = px / width * 100 */
+  }
+}
+
+@media (min-width: 500px) {
+  :root {
+    font-size: 100px;
+  }
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -16,7 +28,7 @@ body {
 
 h1 {
   margin: 0;
-  font: 60px Baloo;
+  font: 0.6rem Baloo;
   color: #233c25;
   line-height: 1;
 }
@@ -24,12 +36,12 @@ h1 {
 h2 {
   margin: 0;
   text-align: center;
-  font: 50px Baloo;
+  font: 0.5rem Baloo;
 }
 
 .contactContainer {
-  margin: 30px 0;
-  border-radius: 40px;
+  margin: 0.3rem 0;
+  border-radius: 0.4rem;
   width: fit-content;
   overflow: hidden;
 }
@@ -39,7 +51,7 @@ h2 {
 }
 
 .contactButton {
-  padding: 25px 80px;
-  font: 32px Trap-Bold;
+  padding: 0.25rem 0.8rem;
+  font: 0.32rem Trap-Bold;
   color: white;
 }

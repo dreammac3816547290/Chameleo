@@ -13,10 +13,14 @@ function Point({ title, description, src, background, foreground, isPopular }) {
         <Image
           src={src}
           alt={title}
-          width={300}
-          height={300}
+          width={0}
+          height={0}
           className={styles.img}
-          style={{ background: foreground }}
+          style={{
+            width: "3.00rem",
+            height: "3.00rem",
+            background: foreground,
+          }}
         />
         <div className={styles.title}>{title}</div>
       </div>

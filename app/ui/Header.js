@@ -9,9 +9,10 @@ function Top() {
       <Image
         src="/header/logo.svg"
         alt="logo"
-        width={250}
-        height={250}
+        width={0}
+        height={0}
         className={styles.logo}
+        style={{ width: "2.50rem", height: "2.50rem" }}
       />
       <div className={styles.textContainer}>
         <h1>CHAMELEO KIDZ ACADEMY</h1>
@@ -54,37 +55,42 @@ function BottomImg() {
       <Image
         src="/header/left-1.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.img} ${styles.left_1}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
       <Image
         src="/header/left-2.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.img} ${styles.left_2}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
       <Image
         src="/header/right-1.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.img} ${styles.right_1}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
       <Image
         src="/header/right-2.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.img} ${styles.right_2}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
       <Image
         src="/header/right-3.svg"
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={`${styles.img} ${styles.right_3}`}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
     </>
   );

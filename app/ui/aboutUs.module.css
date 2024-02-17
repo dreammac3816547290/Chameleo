@@ -11,60 +11,60 @@
 .main {
   background-image: url(../../public/aboutUs/BG.svg);
   background-size: cover;
-  padding-bottom: 100px;
+  padding-bottom: 1rem;
   position: relative;
 }
 
 @media (max-width: 1200px) {
   .main {
-    padding-top: 120px;
+    padding-top: 1.2rem;
   }
 }
 
 @media (min-width: 1200px) {
   .main {
-    padding-top: 80px;
+    padding-top: 0.8rem;
   }
 }
 
 .container {
   margin: auto;
-  max-width: calc(300px + 50%); /* pixel = (1 - fraction) * 600 */
+  max-width: calc(3rem + 50%); /* pixel = (1 - fraction) * 600 */
 }
 
 .box {
-  margin: 30px;
+  margin: 0.3rem;
   border: 2px solid;
-  border-radius: 15px;
-  padding: 30px;
+  border-radius: 0.15rem;
+  padding: 0.3rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
 .titleContainer {
-  margin-bottom: 25px;
+  margin-bottom: 0.25rem;
   height: fit-content;
-  flex: 0 0 350px;
+  flex: 0 0 3.5rem;
 }
 
 .img {
-  margin: 5px;
+  margin: 0.05rem;
   vertical-align: middle;
   user-select: none;
 }
 
 .title {
-  margin: 5px;
+  margin: 0.05rem;
   display: inline;
   vertical-align: middle;
-  font: 40px Baloo;
+  font: 0.4rem Baloo;
 }
 
 .descContainer {
-  flex: 1 1 300px;
+  flex: 1 1 3rem;
   white-space: pre-wrap;
-  font: 25px Trap;
+  font: 0.25rem Trap;
   line-height: 1.3;
 }
 
@@ -74,26 +74,26 @@
 }
 
 .left_1 {
-  bottom: -210px;
-  left: calc(3% - 80px);
+  bottom: -2.1rem;
+  left: calc(3% - 0.8rem);
   transform: scale(1.2);
   z-index: 1;
 }
 
 .left_2 {
-  bottom: -180px;
-  left: calc(6% - 20px);
+  bottom: -1.8rem;
+  left: calc(6% - 0.2rem);
   z-index: 0;
 }
 
 .right_1 {
-  bottom: -230px;
-  right: calc(0% - 60px);
+  bottom: -2.3rem;
+  right: calc(0% - 0.6rem);
   z-index: 1;
 }
 
 .right_2 {
-  bottom: -180px;
-  right: calc(3% + 20px);
+  bottom: -1.8rem;
+  right: calc(3% + 0.2rem);
   z-index: 0;
 }

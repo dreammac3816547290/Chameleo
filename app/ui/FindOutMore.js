@@ -11,9 +11,10 @@ function Top() {
           <Image
             src="/findOutMore/contact.svg"
             alt="contact"
-            width={25}
-            height={25}
+            width={0}
+            height={0}
             className={styles.img}
+            style={{ width: ".25rem", height: ".25rem" }}
           />
           <span className={styles.text}>{socials.contact}</span>
         </a>
@@ -23,9 +24,10 @@ function Top() {
           <Image
             src="/findOutMore/email.svg"
             alt="email"
-            width={25}
-            height={25}
+            width={0}
+            height={0}
             className={styles.img}
+            style={{ width: ".25rem", height: ".25rem" }}
           />
           <span className={styles.text}>{socials.email}</span>
         </a>
@@ -41,18 +43,20 @@ export function Socials() {
         <Image
           src="/findOutMore/facebook.svg"
           alt="facebook"
-          width={50}
-          height={50}
+          width={0}
+          height={0}
           className={styles.img}
+          style={{ width: ".50rem", height: ".50rem" }}
         />
       </a>
       <a href={socials.instagram} target="_blank">
         <Image
           src="/findOutMore/instagram.svg"
           alt="instagram"
-          width={50}
-          height={50}
+          width={0}
+          height={0}
           className={styles.img}
+          style={{ width: ".50rem", height: ".50rem" }}
         />
       </a>
     </>

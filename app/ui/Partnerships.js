@@ -13,9 +13,10 @@ export default function Partnerships() {
             key={file}
             src={`/partnerships/${file}`}
             alt={file}
-            width={100}
-            height={100}
+            width={0}
+            height={0}
             className={styles.img}
+            style={{ width: "1.00rem", height: "1.00rem" }}
           />
         ))}
       </div>

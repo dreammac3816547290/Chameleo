@@ -1,11 +1,11 @@
 .main {
   background: #fec43d;
-  padding: 80px 0;
+  padding: 0.8rem 0;
   position: relative;
 }
 
 .container {
-  padding: 30px max(30px, 10%);
+  padding: 0.3rem max(0.3rem, 10%);
   display: flex;
   overflow: auto;
   user-select: none;
@@ -16,22 +16,22 @@
 }
 
 .img {
-  margin: 10px;
+  margin: 0.1rem;
   z-index: 1;
 }
 
 .img_1 {
   position: absolute;
-  top: 60px;
-  left: calc(-250px + 8%);
+  top: 0.6rem;
+  left: calc(-2.5rem + 8%);
   z-index: 0;
   user-select: none;
 }
 
 .img_2 {
   position: absolute;
-  bottom: 0px;
-  left: calc(-100px + 10%);
+  bottom: 0;
+  left: calc(-1rem + 10%);
   z-index: 2;
   user-select: none;
 }

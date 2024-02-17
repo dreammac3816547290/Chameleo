@@ -15,9 +15,10 @@ export default function Gallery() {
                 key={file}
                 src={`/gallery/${file}`}
                 alt="gallery"
-                width={300}
-                height={300}
+                width={0}
+                height={0}
                 className={styles.img}
+                style={{ width: "3.00rem", height: "3.00rem" }}
               />
             )
         )}
@@ -25,16 +26,18 @@ export default function Gallery() {
       <Image
         src={`/gallery/img-1.svg`}
         alt="background"
-        width={500}
-        height={500}
+        width={0}
+        height={0}
         className={styles.img_1}
+        style={{ width: "5.00rem", height: "5.00rem" }}
       />
       <Image
         src={`/gallery/img-2.svg`}
         alt="background"
-        width={300}
-        height={300}
+        width={0}
+        height={0}
         className={styles.img_2}
+        style={{ width: "3.00rem", height: "3.00rem" }}
       />
     </div>
   );
