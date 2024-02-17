@@ -38,28 +38,32 @@ function Top() {
 
 export function Socials() {
   return (
-    <>
-      <a href={socials.facebook} target="_blank">
-        <Image
-          src="/findOutMore/facebook.svg"
-          alt="facebook"
-          width={0}
-          height={0}
-          className={styles.img}
-          style={{ width: ".50rem", height: ".50rem" }}
-        />
-      </a>
-      <a href={socials.instagram} target="_blank">
-        <Image
-          src="/findOutMore/instagram.svg"
-          alt="instagram"
-          width={0}
-          height={0}
-          className={styles.img}
-          style={{ width: ".50rem", height: ".50rem" }}
-        />
-      </a>
-    </>
+    <div className={styles.socialContainer}>
+      <div className={styles.socialImgContainer}>
+        <a href={socials.facebook} target="_blank">
+          <Image
+            src="/findOutMore/facebook.svg"
+            alt="facebook"
+            width={0}
+            height={0}
+            className={styles.imgSocial}
+            style={{ width: ".50rem", height: ".50rem" }}
+          />
+        </a>
+      </div>
+      <div className={styles.socialImgContainer}>
+        <a href={socials.instagram} target="_blank">
+          <Image
+            src="/findOutMore/instagram.svg"
+            alt="instagram"
+            width={0}
+            height={0}
+            className={styles.imgSocial}
+            style={{ width: ".50rem", height: ".50rem" }}
+          />
+        </a>
+      </div>
+    </div>
   );
 }
 

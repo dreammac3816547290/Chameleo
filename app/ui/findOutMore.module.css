@@ -16,6 +16,7 @@
 
 .topItem {
   margin: 0.15rem 0;
+  overflow: hidden; /* disable link outside container */
   line-height: 0; /* prevent excessive space beetwen lines in div containing image, text, link */
 }
 
@@ -37,6 +38,22 @@
 
 .bottom {
   margin-top: 0.5rem;
+}
+
+.socialContainer {
+  overflow: hidden;
+  height: 0.5rem;
+}
+
+.socialImgContainer {
+  margin-right: 0.2rem;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.imgSocial {
+  vertical-align: top;
+  user-select: none;
 }
 
 .img_1 {
