@@ -24,11 +24,9 @@ function Top() {
           className={styles.slogan}
         />
         <div className={styles.content}>{data.content}</div>
-        <div>
-          <span style={{ verticalAlign: "bottom" }}>Find Us On:</span>
-          <div className={styles.socials}>
-            <Socials />
-          </div>
+        <span style={{ verticalAlign: "bottom" }}>Find Us On:</span>
+        <div className={styles.socials}>
+          <Socials />
         </div>
       </div>
     </div>
