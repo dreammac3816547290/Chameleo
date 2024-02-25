@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-import { headerData as data } from "../data";
+import { headerData as data, socials } from "../data";
 import Image from "next/image";
 import { Socials } from "./FindOutMore";
 
@@ -24,7 +24,7 @@ function Top() {
           className={styles.slogan}
         />
         <div className={styles.content}>{data.content}</div>
-        <span style={{ verticalAlign: "bottom" }}>Find Us On:</span>
+        <span style={{ verticalAlign: "bottom" }}>Find us on:</span>
         <div className={styles.socials}>
           <Socials />
         </div>
@@ -39,8 +39,8 @@ function Bottom() {
       <img src="/header/BG-3.svg" alt="background" className={styles.bg_3} />
       <div className={styles.text}>
         <p className={styles.footerText}>{data.footer}</p>
-        <a href="#ourClasses" className={styles.contact}>
-          Contact Us
+        <a href={socials.whatsApp} target="_blank" className={styles.contact}>
+          Contact us
         </a>
       </div>
     </div>

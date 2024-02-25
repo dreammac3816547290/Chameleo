@@ -10,7 +10,7 @@
 
 .main {
   background: url(../../public/header/BG-2.svg) no-repeat bottom -2rem left 70%,
-    url(../../public/header/BG-1.svg) no-repeat 0 1rem;
+    url(../../public/header/BG-1.svg) no-repeat 0 0.5rem;
   background-size: 20rem, 100% 100%;
   position: relative;
   overflow-x: clip;
@@ -24,19 +24,19 @@
 
 @media (min-width: 917px) {
   .main {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 }
 
 @media (max-width: 1200px) {
   .main {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.3rem;
   }
 }
 
 @media (min-width: 1200px) {
   .main {
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
   }
 }
 
@@ -57,11 +57,11 @@
   margin: 0.15rem;
   max-width: 10rem;
   flex: 1 1 5rem;
-  font: 0.25rem Trap;
+  font: 0.2rem Trap;
 }
 
 .slogan {
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
   width: 100%;
   max-width: 6rem;
   height: auto;
@@ -124,13 +124,13 @@
 }
 
 .footerText {
-  margin-bottom: 0.1rem;
-  font: 0.25rem Trap-Bold;
-  line-height: 1.5em;
+  margin-bottom: -0.1rem;
+  font: 0.2rem Trap-Bold;
+  line-height: 1.5;
 }
 
 .contact {
-  font: 0.25rem Trap;
+  font: 0.2rem Trap;
   color: inherit;
 }
 

@@ -80,25 +80,25 @@ const reviewsData = {
       name: "Xin Yi",
       occupation: "Parent of Zayne",
       review:
-        "It was a short 45 mins lesson, but just nice for the attention span of a 6y/o. The moves are also relatively easy for him to follow. He was a little shy at the beginning but the teacher was patient and encouraging. Kudos to the team!",
+        "It was a short 45 mins lesson, but just nice for the attention span of a 6y/o. The moves are also relatively easy for him to follow.\n\nHe was a little shy at the beginning but the teacher was patient and encouraging. Kudos to the team!",
     },
     {
       name: "Lee Ling",
       occupation: "Parent of Megan",
       review:
-        "She looked forward to attending the trial class after knowing that a dance trial was arranged for her. It was a wonderful trial, she enjoyed it, and also had a great fun time with Katie, who joined in halfway through the class. Thanks the wonderful teams that encouraged and offer Katie to join in.",
+        "She looked forward to attending the trial class after knowing that a dance trial was arranged for her. It was a wonderful trial, she enjoyed it, and also had a great fun time with Katie, who joined in halfway through the class.\n\nThanks the wonderful teams that encouraged and offer Katie to join in.",
     },
     {
       name: "Vivian",
       occupation: "Parent of Kayla",
       review:
-        "Didn’t expect she would enjoy dance class so much like this. It was her first try of Hip Hop dance and she’s totally hooked! The instructor and staff were so fun, friendly & encouraging, making Kayla feel comfortable and eager to try more choreography. She really had a great time! ",
+        "Didn’t expect she would enjoy dance class so much like this. It was her first try of Hip Hop dance and she’s totally hooked! The instructor and staff were so fun, friendly & encouraging, making Kayla feel comfortable and eager to try more choreography.\n\nShe really had a great time! ",
     },
     {
       name: "Joy Wong",
       occupation: "Parent of Eden",
       review:
-        "Eden usually needs some time to warm up but I admire the patience that the team has with him. I saw them trying many ways to encourage him. And in the end turns out he enjoyed and when he comes home he ask me whether he danced well 🤣 Truly a fun experience for us! ",
+        "Eden usually needs some time to warm up but I admire the patience that the team has with him. I saw them trying many ways to encourage him. And in the end turns out he enjoyed and when he comes home he ask me whether he danced well 🤣\n\nTruly a fun experience for us! ",
     },
     {
       name: "Xiao Ting",

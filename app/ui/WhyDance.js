@@ -11,7 +11,7 @@ export default function WhyDance() {
         width={0}
         height={0}
         className={styles.img_1}
-        style={{ width: "8.00rem", height: "8.00rem" }}
+        style={{ width: "8.00rem" }}
       />
       <Image
         src="/whyDance/img-2-big.svg"
@@ -19,7 +19,7 @@ export default function WhyDance() {
         width={0}
         height={0}
         className={styles.img_2_big}
-        style={{ width: "9.00rem", height: "5.40rem" }}
+        style={{ width: "9.00rem", height: "5.00rem" }}
       />
       <Image
         src="/whyDance/img-2-small.svg"

@@ -1,6 +1,6 @@
 .main {
   background: #09abe8;
-  padding: 0.8rem 0;
+  padding: 0.6rem 0;
   position: relative;
   overflow-x: clip;
   color: white;
@@ -13,6 +13,18 @@
   left: calc(50% - 4rem);
   z-index: -1;
   user-select: none;
+}
+
+@media (max-width: 1000px) {
+  .img_1 {
+    height: 8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .img_1 {
+    height: 7rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -31,7 +43,7 @@
 @media (min-width: 1000px) {
   .img_2_big {
     margin: auto;
-    margin-top: 0.4rem;
+    margin-top: 0rem;
     display: block;
     user-select: none;
   }

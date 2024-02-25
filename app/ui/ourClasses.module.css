@@ -35,7 +35,8 @@
   max-width: calc(4.5rem + 25%); /* pixel = (1 - fraction) * 600 */
   padding: 0.2rem 0.3rem;
   text-align: center;
-  font: 0.25rem Trap;
+  font: 0.2rem Trap;
+  line-height: 1.3;
 }
 
 .container {
@@ -73,14 +74,13 @@
 }
 
 .title {
-  padding-top: 0.1rem;
   text-align: center;
   font: 0.3rem Baloo2;
   color: white;
 }
 
 .description {
-  font: 0.22rem Trap;
+  font: 0.2rem Trap;
   line-height: 1.3;
 }
 

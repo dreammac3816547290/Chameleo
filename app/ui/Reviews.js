@@ -5,8 +5,8 @@ function Review({ name, occupation, review }) {
   return (
     <div className={styles.box}>
       <div className={styles.header}>
-        <div className={styles.bold}>{name}</div>
-        {occupation}
+        <div className={styles.name}>{name}</div>
+        <div className={styles.occupation}>{occupation}</div>
       </div>
       <div className={styles.content}>{review}</div>
     </div>

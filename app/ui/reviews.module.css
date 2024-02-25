@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: Trap-Light;
+  src: url(fonts/Trap-Light.otf);
+}
+
+@font-face {
   font-family: DrSugiyama;
   src: url(fonts/DrSugiyama-Regular.ttf);
 }
@@ -54,10 +59,15 @@
   overflow: auto;
 }
 
-.bold {
-  font: 0.2rem Trap-Bold;
+.name {
+  font-family: Trap-Bold;
+}
+
+.occupation {
+  font-family: Trap-Light;
 }
 
 .content {
   margin-top: 0.2rem;
+  white-space: pre-wrap;
 }
