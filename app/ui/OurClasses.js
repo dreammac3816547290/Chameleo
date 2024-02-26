@@ -17,8 +17,6 @@ function Point({ title, description, src, background, foreground, isPopular }) {
           height={0}
           className={styles.img}
           style={{
-            width: "3.00rem",
-            height: "3.00rem",
             background: foreground,
           }}
         />

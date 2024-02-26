@@ -30,6 +30,25 @@
   }
 }
 
+@media (max-width: 766px) {
+  div.header {
+    width: calc(100% - 2.3rem);
+  }
+
+  div.container {
+    padding: 0.15rem 1rem;
+  }
+
+  div.box {
+    flex: 1 0 auto;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .header {
   margin: auto;
   max-width: calc(4.5rem + 25%); /* pixel = (1 - fraction) * 600 */
@@ -66,6 +85,13 @@
   position: absolute;
   top: -0.2rem;
   right: -0.2rem;
+}
+
+@media (min-width: 767px) {
+  .img {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 .img {
