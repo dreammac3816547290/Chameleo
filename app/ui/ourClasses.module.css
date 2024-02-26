@@ -33,6 +33,7 @@
 @media (max-width: 766px) {
   div.header {
     width: calc(100% - 2.3rem);
+    padding: 0.2rem 0;
   }
 
   div.container {
@@ -51,6 +52,7 @@
 
 .header {
   margin: auto;
+  min-width: 3.3rem;
   max-width: calc(4.5rem + 25%); /* pixel = (1 - fraction) * 600 */
   padding: 0.2rem 0.3rem;
   text-align: center;
