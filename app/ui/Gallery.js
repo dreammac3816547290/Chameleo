@@ -11,9 +11,10 @@ export default function Gallery() {
         {files.map(
           (file) =>
             !file.startsWith("img") && (
-              <Image
+              <object
                 key={file}
-                src={`/gallery/${file}`}
+                type="image/svg+xml"
+                data={`/gallery/${file}`}
                 alt="gallery"
                 width={0}
                 height={0}
