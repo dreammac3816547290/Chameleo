@@ -9,13 +9,10 @@ export default function Partnerships() {
       <h2>PARTNERSHIPS</h2>
       <div className={styles.container}>
         {files.map((file) => (
-          <object
+          <img
             key={file}
-            type="image/svg+xml"
-            data={`/partnerships/${file}`}
+            src={`/partnerships/${file}`}
             alt={file}
-            width={0}
-            height={0}
             className={styles.img}
             style={{ width: "1.00rem", height: "1.00rem" }}
           />

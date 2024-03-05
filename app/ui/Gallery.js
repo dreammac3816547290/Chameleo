@@ -11,13 +11,10 @@ export default function Gallery() {
         {files.map(
           (file) =>
             !file.startsWith("img") && (
-              <object
+              <img
                 key={file}
-                type="image/svg+xml"
-                data={`/gallery/${file}`}
+                src={`/gallery/${file}`}
                 alt="gallery"
-                width={0}
-                height={0}
                 className={styles.img}
                 style={{ width: "3.00rem", height: "3.00rem" }}
               />
@@ -25,7 +22,7 @@ export default function Gallery() {
         )}
       </div>
       <Image
-        src={`/gallery/img-1.svg`}
+        src="/gallery/img-1.svg"
         alt="background"
         width={0}
         height={0}
@@ -33,7 +30,7 @@ export default function Gallery() {
         style={{ width: "5.00rem", height: "5.00rem" }}
       />
       <Image
-        src={`/gallery/img-2.svg`}
+        src="/gallery/img-2.svg"
         alt="background"
         width={0}
         height={0}
