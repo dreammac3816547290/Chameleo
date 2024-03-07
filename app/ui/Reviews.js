@@ -1,5 +1,6 @@
 import styles from "./reviews.module.css";
 import { reviewsData as data } from "../data";
+import ReviewsContainer from "./ReviewsContainer";
 
 function Review({ name, occupation, review }) {
   return (
@@ -18,11 +19,11 @@ export default function Reviews() {
     <div className={styles.main}>
       <div className={styles.bigText}>“</div>
       <h2>REVIEWS</h2>
-      <div className={styles.container}>
+      <ReviewsContainer>
         {data.reviews.map((review) => (
           <Review key={review.name} {...review} />
         ))}
-      </div>
+      </ReviewsContainer>
     </div>
   );
 }
