@@ -1,6 +1,5 @@
 import styles from "./partnerships.module.css";
 import { readdirSync } from "fs";
-import Image from "next/image";
 
 export default function Partnerships() {
   const files = readdirSync("public/partnerships");

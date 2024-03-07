@@ -12,12 +12,10 @@ export default function Gallery() {
         {files.map(
           (file) =>
             !file.startsWith("img") && (
-              <Image
+              <img
                 key={file}
                 src={`/gallery/${file}`}
                 alt="gallery"
-                width={0}
-                height={0}
                 className={styles.img}
                 style={{ width: "3.00rem", height: "3.00rem" }}
                 draggable="false"
