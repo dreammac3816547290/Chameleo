@@ -36,7 +36,7 @@ export default function ReviewsContainer({ children }) {
         style={{ left: "10%" }}
         onClick={() => button("left")}
       >
-        🡄
+        &#x1F844;
       </div>
       {children}
       <div
@@ -44,7 +44,7 @@ export default function ReviewsContainer({ children }) {
         style={{ right: "10%" }}
         onClick={() => button("right")}
       >
-        🡆
+        &#x1F846;
       </div>
     </div>
   );
