@@ -11,6 +11,17 @@ export default function ReviewsContainer({ children }) {
     }
   }
   const exit = () => setDrag(false);
+  function button(side) {
+    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+    const shift = (side == "left" ? -3 : 3) * rem;
+    let counter = 0;
+    const max = 30;
+    const interval = setInterval(() => {
+      document.getElementById("reviewsContainer").scrollLeft += shift / max;
+      counter++;
+      if (counter == max) clearInterval(interval);
+    }, 500 / max);
+  }
   return (
     <div
       id="reviewsContainer"
@@ -20,7 +31,21 @@ export default function ReviewsContainer({ children }) {
       onMouseUp={exit}
       onMouseLeave={exit}
     >
+      <div
+        className={styles.button}
+        style={{ left: "10%" }}
+        onClick={() => button("left")}
+      >
+        🡄
+      </div>
       {children}
+      <div
+        className={styles.button}
+        style={{ right: "10%" }}
+        onClick={() => button("right")}
+      >
+        🡆
+      </div>
     </div>
   );
 }

@@ -15,6 +15,25 @@
   display: none;
 }
 
+.button {
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: black;
+  position: absolute;
+  top: 3.3rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: white;
+  z-index: 3;
+  line-height: 1.75;
+  transition: opacity 0.2s;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
 .img {
   margin: 0.1rem;
   z-index: 1;
