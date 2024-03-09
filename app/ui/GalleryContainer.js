@@ -33,7 +33,7 @@ export default function GalleryContainer({ children }) {
     >
       <div
         className={styles.button}
-        style={{ left: "10%" }}
+        style={{ left: "5%" }}
         onClick={() => button("left")}
       >
         &#x1F844;
@@ -41,7 +41,7 @@ export default function GalleryContainer({ children }) {
       {children}
       <div
         className={styles.button}
-        style={{ right: "10%" }}
+        style={{ right: "5%" }}
         onClick={() => button("right")}
       >
         &#x1F846;
