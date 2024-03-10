@@ -27,12 +27,13 @@
   color: white;
   z-index: 3;
   line-height: 0.8;
+  opacity: 0.5;
   cursor: pointer;
   transition: opacity 0.2s;
 }
 
 .button:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .img {
