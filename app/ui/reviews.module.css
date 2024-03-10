@@ -52,12 +52,12 @@
   position: absolute;
   top: 5.3rem;
   text-align: center;
-  font-family: "Times New Roman", "Zapf Dingbats";
   font-size: 0.3rem;
   color: white;
   z-index: 3;
   line-height: 1.75;
   user-select: none;
+  cursor: pointer;
   transition: opacity 0.2s;
 }
 

@@ -36,7 +36,7 @@ export default function GalleryContainer({ children }) {
         style={{ left: "5%" }}
         onClick={() => button("left")}
       >
-        &#x1F844;
+        &#x276E;
       </div>
       {children}
       <div
@@ -44,7 +44,7 @@ export default function GalleryContainer({ children }) {
         style={{ right: "5%" }}
         onClick={() => button("right")}
       >
-        &#x1F846;
+        &#x276F;
       </div>
     </div>
   );

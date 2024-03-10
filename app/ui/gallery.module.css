@@ -28,6 +28,7 @@
   color: white;
   z-index: 3;
   line-height: 1.75;
+  cursor: pointer;
   transition: opacity 0.2s;
 }
 
